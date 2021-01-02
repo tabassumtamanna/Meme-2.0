@@ -89,14 +89,14 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5dm-vd-3ic">
-                                            <rect key="frame" x="0.0" y="0.0" width="200" height="150"/>
+                                            <rect key="frame" x="10" y="0.0" width="180" height="150"/>
                                         </imageView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="5dm-vd-3ic" firstAttribute="leading" secondItem="0jC-gi-ky0" secondAttribute="leading" id="Vyb-NC-g9y"/>
+                                        <constraint firstItem="5dm-vd-3ic" firstAttribute="leading" secondItem="0jC-gi-ky0" secondAttribute="leading" constant="10" id="Vyb-NC-g9y"/>
                                         <constraint firstItem="5dm-vd-3ic" firstAttribute="top" secondItem="0jC-gi-ky0" secondAttribute="top" id="abX-OZ-UM2"/>
                                         <constraint firstAttribute="bottom" secondItem="5dm-vd-3ic" secondAttribute="bottom" id="hf2-p5-hgj"/>
-                                        <constraint firstAttribute="trailing" secondItem="5dm-vd-3ic" secondAttribute="trailing" id="yPB-Rt-pfh"/>
+                                        <constraint firstAttribute="trailing" secondItem="5dm-vd-3ic" secondAttribute="trailing" constant="10" id="yPB-Rt-pfh"/>
                                     </constraints>
                                 </collectionViewCellContentView>
                                 <size key="customSize" width="200" height="150"/>
